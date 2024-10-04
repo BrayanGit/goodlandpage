@@ -1,0 +1,14 @@
+.horario {
+  background: #093028;
+  background: linear-gradient(
+    to right,
+    #093028,#237A57
+  );
+}
+
+.parafox {
+  padding: 0px 0px 10px 0px;
+}
+.tit {
+  padding: 5px 0px 0px 0px;
+}

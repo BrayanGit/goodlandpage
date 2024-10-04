@@ -1,0 +1,40 @@
+.partners {
+  background: #152331;
+  background: linear-gradient(
+    to right,
+    #152331,#000000
+  );
+}
+.partners-carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.carousel-item-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.growshop-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid goldenrod;
+  transition: transform 0.3s ease;
+}
+.carousel-item-custom h5 {
+  margin-top: 10px;
+  color: goldenrod;
+}
+.carousel-item.active .growshop-img {
+  transform: scale(1.1); /* Agranda la imagen cuando está centrada */
+}
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%); /* Cambia el color de las flechas a blanco */
+}
+.text-light {
+  color: #f8f9fa !important;
+}
+

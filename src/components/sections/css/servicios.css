@@ -1,0 +1,17 @@
+.servicios {
+  background: #093028;
+  background: linear-gradient(to right,
+      #093028, #237A57);
+}
+
+
+.texto {
+  margin: 0%;
+  padding: 10px;
+}
+.celda {
+  border-radius: 30px;
+}
+.parrafox {
+  padding: 0px 0px 10px 0px;
+}

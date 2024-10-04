@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jaja Grow",
+    "img": "/img/jaja.png"
+  },
+  {
+    "name": "Loco Grow",
+    "img": "/img/locogrow.png"
+  },
+  {
+    "name": "Oveja Verde",
+    "img": "/img/oveja-verde.png"
+  },
+  {
+    "name": "Pink Grow",
+    "img": "/img/pinkgrow.png"
+  },
+  {
+    "name": "Grow Shop",
+    "img": "/img/grow.png"
+  }
+]

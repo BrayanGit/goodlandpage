@@ -1,0 +1,36 @@
+h2 {
+  color: goldenrod;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+  color: goldenrod;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nosotros {
+  background: #093028;
+  background: linear-gradient(
+    to right,
+    #093028,#237A57
+  );
+}
+
+/* Estilo para el texto del carousel */
+.carousel-text {
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif;
+  color: #091E3A;
+  max-width: 600px;
+  text-align: center;
+}
+/* Ajustes de margen y padding */
+.nosotros .container {
+  padding: 20px;
+}
+.carousel {
+  margin-top: 20px;
+}
+.carousel-full img {
+  object-fit: cover; /* Asegura que las imágenes cubran el área sin distorsionarse */
+  height: 100%;
+  width: 100%;
+}

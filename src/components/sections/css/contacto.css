@@ -1,0 +1,7 @@
+.contacto {
+  background: #152331;
+  background: linear-gradient(
+    to right,
+    #152331,#000000
+  );
+}
