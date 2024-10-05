@@ -14,15 +14,15 @@ function Contacto() {
         <ul style={{ listStyleType: "none", padding: 0 }}>
           <li>
             <i className="fa-solid fa-envelope" style={{ color: "#74C0FC"}}></i> Email:{" "}
-            <a href="mailto:GoodLand@email.com" style={{ color: "#74C0FC" }}>
-              GoodLand@Gmail.com
-            </a>
+            <span  href="mailto:GoodLand@email.com" style={{ color: "#74C0FC" }}>
+              Goodland@Gmail.com
+            </span>
           </li>
           <li>
             <i className="fa-solid fa-mobile" style={{ color: "#25D366" }}></i> Phone:{" "}
-            <a href="tel:+12345678" style={{ color: "#25D366" }}>
-              +569 12345678
-            </a>
+            <span href="tel:+12345678" style={{ color: "#25D366" }}>
+              +569 12341234
+            </span>
           </li>
         </ul>
 

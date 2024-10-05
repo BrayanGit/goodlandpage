@@ -25,8 +25,9 @@ function Servicios() {
       <div className="container text-center bg-dark celda">
         <h2 className="mb-2 texto">Partners</h2>
         <p className="parrafox">
-          trasladamos sus productos hasta el cliente mejorando sus ventas
-          debe acordar con el cliente la entrega del producto al dia siguiente
+          nos encargamos de transportar los productos
+          hasta el cliente potenciando sus ventas y seguridad de traslado.
+          Se debe acordar con el cliente la entrega del producto
           para generar la ruta de busqueda y entrega en horario determinado.
         </p>
       </div>
