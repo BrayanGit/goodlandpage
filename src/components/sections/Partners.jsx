@@ -9,7 +9,7 @@ function Partners() {
     // Realiza la petición para obtener los datos del archivo JSON
     const fetchGrowshops = async () => {
       try {
-        const response = await fetch("/growshop.json"); // Ruta al archivo JSON
+        const response = await fetch(process.env.PUBLIC_URL + "/growshop.json"); // Ruta al archivo JSON
         const data = await response.json();
         setGrowshops(data);
       } catch (error) {
