@@ -17,7 +17,7 @@ function RucelModel() {
       >
         <CarouselItem>
           <img
-            src="./img/topcrop.jpg"
+            src="./img/topcrop.png"
             alt="Primer slide"
             className="d-block w-100"
             style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión

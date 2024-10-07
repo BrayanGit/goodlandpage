@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Carousel } from "react-bootstrap";
+import { Carousel, CarouselItem } from "react-bootstrap";
 import "./css/partners.css";
 
 function Partners() {
@@ -9,7 +9,8 @@ function Partners() {
     // Realiza la petición para obtener los datos del archivo JSON
     const fetchGrowshops = async () => {
       try {
-        const response = await fetch(process.env.PUBLIC_URL + "/growshop.json"); // Ruta al archivo JSON
+        //const response = await fetch(process.env.PUBLIC_URL + "/growshop.json"); // Ruta al archivo JSON
+        const response = await fetch("/growshop.json");
         const data = await response.json();
         setGrowshops(data);
       } catch (error) {
@@ -35,7 +36,7 @@ function Partners() {
             touch={true}
           >
             {growshops.map((growshop, index) => (
-              <Carousel.Item key={index}>
+              <CarouselItem key={index}>
                 <br />
                 <div className="carousel-item-custom">
                   <img
@@ -45,7 +46,7 @@ function Partners() {
                   />
                   <h5 className="mt-3">{growshop.name}</h5>
                 </div>
-              </Carousel.Item>
+              </CarouselItem>
             ))}
           </Carousel>
         ) : (

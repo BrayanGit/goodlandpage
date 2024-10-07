@@ -1,56 +1,62 @@
-import { Carousel } from "react-bootstrap";
+import { Carousel, CarouselItem } from "react-bootstrap";
 import "./css/nosotros.css";
 
 function Nosotros() {
   return (
     <section id="nosotros" className="nosotros-full">
       <Carousel className="carousel-full">
-        <Carousel.Item>
+        <CarouselItem>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/good1.jpg" }
+            src="/img/good1.png"
+            //src={process.env.PUBLIC_URL + "/img/good1.jpg"}
             alt="Imagen 1"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </CarouselItem>
+        <CarouselItem>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/good2.jpg"}
+            src="/img/good2.png"
+            //src={process.env.PUBLIC_URL + "/img/good2.jpg"}
             alt="Imagen 2"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </CarouselItem>
+        <CarouselItem>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/good3.jpg"}
+            src="/img/good3.png"
+            //src={process.env.PUBLIC_URL + "/img/good3.jpg"}
             alt="Imagen 3"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </CarouselItem>
+        <CarouselItem>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/good4.jpg"}
+            src="/img/good4.png"
+            //src={process.env.PUBLIC_URL + "/img/good4.jpg"}
             alt="Imagen 4"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </CarouselItem>
+        <CarouselItem>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/good5.jpg"}
+            src="/img/good5.png"
+            //src={process.env.PUBLIC_URL + "/img/good5.jpg"}
             alt="Imagen 5"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </CarouselItem>
+        <CarouselItem>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/good6.jpg"}
+            src="/img/good6.png"
+            //src={process.env.PUBLIC_URL + "/img/good6.jpg"}
             alt="Imagen 6"
           />
-        </Carousel.Item>
+        </CarouselItem>
       </Carousel>
     </section>
   );
 }
 export default Nosotros;
-
+// crear ekl promt parea corregir las vistas de los carouseles
 
