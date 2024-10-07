@@ -4,7 +4,7 @@ function Horario() {
   return (
     <section id="horario" className="py-5 horario" style={{ backgroundColor: "#677D6A", color: "#fff" }}>
       <div style={{ borderRadius: "30px" }} className="container text-center bg-dark">
-        <h2 className="mb-4 tit">Horario</h2>
+        <h2 className="mb-2 hro">Horario</h2>
         <p className="parafox">
           <i className="fa-solid fa-clock"></i>{" "}
           Lunes a Viernes - 09:00 a 18:00 Hrs

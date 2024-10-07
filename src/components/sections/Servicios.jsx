@@ -6,9 +6,10 @@ function Servicios() {
       <div className="container text-center bg-dark celda">
         <h2 className="mb-2 texto">Servicios</h2>
         <p className="parrafox">
-          Ofrecemos una solucion para transportar por cantidad y/o volumen  
-          articulos de growshops y jardineria para la ciudad de concepcion, hualpen, talcahuano (PLN). Se realizan 
-          pedidos especiales con traslado de productos de tu grow favorito. 
+          Ofrecemos una solucion para transportar sustratos de alta calidad y
+          articulos de growshop y jardineria para la ciudad de concepcion, 
+          hualpen, talcahuano (PLN). Se realizan 
+          pedidos especiales con traslado de productos de tu local favorito. 
           a domicilio, rápido, fácil y sencillo!
         </p>
       </div>
@@ -16,19 +17,19 @@ function Servicios() {
       <div className="container text-center bg-dark celda">
         <h2 className="mb-2 texto">Clientes</h2>
         <p className="parrafox">
-          una vez en contacto con nosotros debes indicar que tipo u 
-          cantidad de sustrato requires al igual que otros articulos 
-          de cultivo segun horario de agendado y posterior despacho
+          En contacto con nosotros debes realizar el pedido 
+          indicar tipo de sustrato y cantidad
+          dentro del horario determinado para generar la ruta 
+          previo agendado y posterior despacho.
         </p>
       </div>
 
       <div className="container text-center bg-dark celda">
         <h2 className="mb-2 texto">Partners</h2>
         <p className="parrafox">
-          nos encargamos de transportar los productos
-          hasta el cliente potenciando sus ventas y seguridad de traslado.
-          Se debe acordar con el cliente la entrega del producto
-          para generar la ruta de busqueda y entrega en horario determinado.
+          Nos encargamos del retiro en local y lo enviamos directo al cliente
+          potenciando sus capacidad de ventas y mejorando el servicio de envios.
+          Trasladamos los productos hasta el cliente.
         </p>
       </div>
 
@@ -36,5 +37,6 @@ function Servicios() {
   );
 }
 export default Servicios;
-
 // incorporar ina imagen background periferia ciudad aereo mini video con el texto por ensima mejor estilizado
+// agregar movilidad en la pagina que resalte las secciones cuando se desplaze en la pagina 
+

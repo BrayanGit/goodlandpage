@@ -13,15 +13,17 @@ function Contacto() {
         <h2 className="mb-4">Contacto</h2>
         <ul style={{ listStyleType: "none", padding: 0 }}>
           <li>
-            <i className="fa-solid fa-envelope" style={{ color: "#74C0FC"}}></i> Email:{" "}
+            <i className="fa-solid fa-envelope" style={{ color: "#74C0FC"}}></i>
             <span  href="mailto:GoodLand@email.com" style={{ color: "#74C0FC" }}>
-              Goodland@Gmail.com
+              {" "}Goodland@Gmail.com
+              <hr />
             </span>
           </li>
           <li>
-            <i className="fa-solid fa-mobile" style={{ color: "#25D366" }}></i> Phone:{" "}
+            <i className="fa-solid fa-mobile" style={{ color: "#25D366" }}></i>
             <span href="tel:+12345678" style={{ color: "#25D366" }}>
-              +569 12341234
+              {" "}+569 12341234
+              <hr />
             </span>
           </li>
         </ul>
@@ -48,3 +50,5 @@ function Contacto() {
   );
 }
 export default Contacto;
+// Email:{" "}
+// Phone:{" "}
