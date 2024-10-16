@@ -8,48 +8,48 @@ function Nosotros() {
         <CarouselItem>
           <img
             className="d-block w-100"
-            src="/img/good1.png"
-            //src={process.env.PUBLIC_URL + "/img/good1.jpg"}
+            //src="/img/good1.png"
+            src={process.env.PUBLIC_URL + "/img/good1.png"}
             alt="Imagen 1"
           />
         </CarouselItem>
         <CarouselItem>
           <img
             className="d-block w-100"
-            src="/img/good2.png"
-            //src={process.env.PUBLIC_URL + "/img/good2.jpg"}
+            //src="/img/good2.png"
+            src={process.env.PUBLIC_URL + "/img/good2.png"}
             alt="Imagen 2"
           />
         </CarouselItem>
         <CarouselItem>
           <img
             className="d-block w-100"
-            src="/img/good3.png"
-            //src={process.env.PUBLIC_URL + "/img/good3.jpg"}
+            //src="/img/good3.png"
+            src={process.env.PUBLIC_URL + "/img/good3.png"}
             alt="Imagen 3"
           />
         </CarouselItem>
         <CarouselItem>
           <img
             className="d-block w-100"
-            src="/img/good4.png"
-            //src={process.env.PUBLIC_URL + "/img/good4.jpg"}
+            //src="/img/good4.png"
+            src={process.env.PUBLIC_URL + "/img/good4.png"}
             alt="Imagen 4"
           />
         </CarouselItem>
         <CarouselItem>
           <img
             className="d-block w-100"
-            src="/img/good5.png"
-            //src={process.env.PUBLIC_URL + "/img/good5.jpg"}
+            //src="/img/good5.png"
+            src={process.env.PUBLIC_URL + "/img/good5.png"}
             alt="Imagen 5"
           />
         </CarouselItem>
         <CarouselItem>
           <img
             className="d-block w-100"
-            src="/img/good6.png"
-            //src={process.env.PUBLIC_URL + "/img/good6.jpg"}
+            //src="/img/good6.png"
+            src={process.env.PUBLIC_URL + "/img/good6.png"}
             alt="Imagen 6"
           />
         </CarouselItem>
