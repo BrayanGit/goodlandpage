@@ -1,58 +1,46 @@
 import { Container, Carousel, CarouselItem } from "react-bootstrap";
-import "./css/nosotros.css";
+//import "./css/nosotros.css";
 
 function Nosotros() {
   return (
-    <Container fluid id="nosotros" className="nosotros-full">
-      <Carousel className="carousel-full">
+    <Container 
+      fluid
+      className="p-0" // Elimina cualquier padding/margen del container para ocupar todo el ancho
+      style={{ backgroundColor: '#40534C' }} // Fondo opcional para el contenedor
+    >
+      <Carousel 
+        controls={true}
+        indicators={true}
+        interval={10000}  // Cambia las imágenes cada 10 segundos
+        className="w-100"  // Asegura que ocupe el 100% del ancho
+        style={{ maxHeight: '80vh' }}  // Altura máxima del carrusel
+      >
         <CarouselItem>
           <img
-            className="d-block w-100"
             src="./img/good1.png"
-            //src={process.env.PUBLIC_URL + "./img/good1.png"}
-            alt="Imagen 1"
+            alt="Primer slide"
+            className="d-block w-100"
+            style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
           />
+          <Carousel.Caption className="bg-dark bg-opacity-50 rounded p-3">
+            <h3 className="text-white">TopCrop Sustratos</h3>
+            <p className="text-white">Fibra de coco y perlita.</p>
+          </Carousel.Caption>
         </CarouselItem>
+
         <CarouselItem>
           <img
-            className="d-block w-100"
             src="./img/good2.png"
-            //src={process.env.PUBLIC_URL + "./img/good2.png"}
-            alt="Imagen 2"
-          />
-        </CarouselItem>
-        <CarouselItem>
-          <img
+            alt="Segundo slide"
             className="d-block w-100"
-            src="./img/good3.png"
-            //src={process.env.PUBLIC_URL + "./img/good3.png"}
-            alt="Imagen 3"
+            style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
           />
+          <Carousel.Caption className="bg-dark bg-opacity-50 rounded p-3">
+            <h3 className="text-white">BioBizz</h3>
+            <p className="text-white">Fibra de coco y perlita.</p>
+          </Carousel.Caption>
         </CarouselItem>
-        <CarouselItem>
-          <img
-            className="d-block w-100"
-            src="./img/good4.png"
-            //src={process.env.PUBLIC_URL + "./img/good4.png"}
-            alt="Imagen 4"
-          />
-        </CarouselItem>
-        <CarouselItem>
-          <img
-            className="d-block w-100"
-            src="./img/good5.png"
-            //src={process.env.PUBLIC_URL + "./img/good5.png"}
-            alt="Imagen 5"
-          />
-        </CarouselItem>
-        <CarouselItem>
-          <img
-            className="d-block w-100"
-            src="./img/good6.png"
-            //src={process.env.PUBLIC_URL + "./img/good6.png"}
-            alt="Imagen 6"
-          />
-        </CarouselItem>
+
       </Carousel>
     </Container>
   );
