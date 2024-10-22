@@ -18,28 +18,20 @@ function Nosotros() {
       >
         <CarouselItem>
           <img
-            src="./img/good1.png"
+            src="./img/goodone.png"
             alt="Primer slide"
             className="d-block w-100"
             style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
           />
-          <Carousel.Caption className="bg-dark bg-opacity-50 rounded p-3">
-            <h3 className="text-white">TopCrop Sustratos</h3>
-            <p className="text-white">Fibra de coco y perlita.</p>
-          </Carousel.Caption>
         </CarouselItem>
 
         <CarouselItem>
           <img
-            src="./img/good2.png"
+            src="./img/goodtwo.png"
             alt="Segundo slide"
             className="d-block w-100"
             style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
           />
-          <Carousel.Caption className="bg-dark bg-opacity-50 rounded p-3">
-            <h3 className="text-white">BioBizz</h3>
-            <p className="text-white">Fibra de coco y perlita.</p>
-          </Carousel.Caption>
         </CarouselItem>
 
       </Carousel>
