@@ -18,22 +18,12 @@ function Nosotros() {
       >
         <CarouselItem>
           <img
-            src="./img/goodone.png"
+            src="./img/goodtree.jpg"
             alt="Primer slide"
             className="d-block w-100"
             style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
           />
         </CarouselItem>
-
-        <CarouselItem>
-          <img
-            src="./img/goodtwo.png"
-            alt="Segundo slide"
-            className="d-block w-100"
-            style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
-          />
-        </CarouselItem>
-
       </Carousel>
     </Container>
   );
