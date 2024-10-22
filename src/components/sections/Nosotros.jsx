@@ -1,4 +1,5 @@
 import { Container, Carousel, CarouselItem } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 //import "./css/nosotros.css";
 
 function Nosotros() {
