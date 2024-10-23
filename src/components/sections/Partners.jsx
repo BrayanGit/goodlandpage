@@ -9,7 +9,8 @@ function Partners() {
     // Realiza la petición para obtener los datos del archivo JSON
     const fetchGrowshops = async () => {
       try {
-        const response = await fetch(process.env.PUBLIC_URL + "/growshop.json"); // Ruta al archivo JSON
+        //const response = await fetch(process.env.PUBLIC_URL + "/growshop.json"); // Ruta al archivo JSON
+        const response = await fetch("/growshop.json");
         const data = await response.json();
         setGrowshops(data);
       } catch (error) {
@@ -39,7 +40,7 @@ function Partners() {
                 <div className="carousel-item-custom">
                   <img
                     className="d-block mx-auto growshop-img"
-                    src={process.env.PUBLIC_URL + growshop.img}
+                    src={growshop.img}
                     alt={growshop.name}
                   />
                   <h5 className="mt-3">{growshop.name}</h5>
