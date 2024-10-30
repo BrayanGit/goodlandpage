@@ -33,3 +33,54 @@ p {
   height: 100%;
   width: 100%;
 }
+
+
+.custom-accordion {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgba(20, 20, 20, 0.8);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-accordion-item {
+  border: none;
+  color: goldenrod !important;
+}
+
+.custom-accordion-header {
+  background-color: #152331;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.custom-accordion-body {
+  background-color: #152331;
+  color: #ffeb3b;
+  padding: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.custom-accordion-body ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.custom-accordion-body li {
+  margin-bottom: 5px;
+}
+
+.custom-accordion-item .accordion-button:not(.collapsed) {
+  color: goldenrod !important; /* Color del texto cuando está expandido */
+  background-color: #454d55; /* Fondo cuando está expandido */
+}
+
+.nosotrostyle {
+  background: #093028;
+  background: linear-gradient(to right,
+      #093028, #237A57);
+}

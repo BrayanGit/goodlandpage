@@ -1,52 +1,38 @@
-import { Container, Carousel, CarouselItem } from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import "./css/nosotros.css";
 
 function Nosotros() {
   return (
-    <Container 
-      fluid
-      className="p-0" // Elimina cualquier padding/margen del container para ocupar todo el ancho
-      style={{ backgroundColor: '#40534C' }} // Fondo opcional para el contenedor
-    >
-      <Carousel 
-        controls={true}
-        indicators={true}
-        interval={10000}  // Cambia las imágenes cada 10 segundos
-        className="w-100"  // Asegura que ocupe el 100% del ancho
-        style={{ maxHeight: '80vh' }}  // Altura máxima del carrusel
-      >
-        <CarouselItem>
-          <img
-            src="./img/goodone.jpg"
-            alt="Primer slide"
-            className="d-block w-100"
-            style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
-          />
-        </CarouselItem>
+    <section className="py-3 nosotrostyle" >
+      <Accordion className="custom-accordion">
+        <Accordion.Item eventKey="0" className="custom-accordion-item">
+          <Accordion.Header style={{ color: "goldenrod" }} className="custom-accordion-header">GOODLAND</Accordion.Header>
+          <Accordion.Body className="custom-accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </Accordion.Body>
+        </Accordion.Item>
 
-        <CarouselItem>
-          <img
-            src="./img/goodtwo.jpg"
-            alt="Primer slide"
-            className="d-block w-100"
-            style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
-          />
-        </CarouselItem>
-
-        <CarouselItem>
-          <img
-            src="./img/goodtree.jpg"
-            alt="Primer slide"
-            className="d-block w-100"
-            style={{ objectFit: 'cover', maxHeight: '80vh', borderRadius: '0px' }}  // Ajusta el tamaño sin distorsión
-          />
-        </CarouselItem>
-      </Carousel>
-    </Container>
+        <Accordion.Item eventKey="1" className="custom-accordion-item">
+          <Accordion.Header className="custom-accordion-header">SUSTRATOS EN STOCK</Accordion.Header>
+          <Accordion.Body className="custom-accordion-body">
+            <ul>
+              <li>light-mix BioBizz 50L</li>
+              <li>CompleteMix TopCrop 50L</li>
+              <li>Professional Plus Canna 50L</li>
+              <li>BioTerraPlus BioCanna 50L</li>
+              <li>LightMix Plagron 50L</li>
+            </ul>
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+    </section>
   );
 }
+
 export default Nosotros;
-// crear ekl promt parea corregir las vistas de los carouseles
-// crear un nuevo caroucel paresido al rucel reorganizar los ruceles
+
 
