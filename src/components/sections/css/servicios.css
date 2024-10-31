@@ -2,8 +2,9 @@
   background: #093028;
   background: linear-gradient(to right,
       #093028, #237A57);
+  color: goldenrod;
+  padding: 0px 5px 0px 5px;
 }
-
 
 .texto {
   margin: 0%;

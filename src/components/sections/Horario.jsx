@@ -2,7 +2,7 @@ import "./css/horario.css";
 
 function Horario() {
   return (
-    <section id="horario" className="py-5 horario" style={{ backgroundColor: "#677D6A", color: "#fff" }}>
+    <section id="horario" className="py-5 horario">
       <div style={{ borderRadius: "30px" }} className="container text-center bg-dark">
         <h2 className="mb-2 hro">Horario</h2>
         <p className="parafox">

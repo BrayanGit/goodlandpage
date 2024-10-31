@@ -4,7 +4,7 @@ import "./css/partners.css";
 function Partners() {
 
   return (
-    <section id="partners" className="py-3 partners" style={{ backgroundColor: "#414345" }}>
+    <section id="partners" className="py-3 partners" style={{ backgroundColor: "" }}>
       <div className="container text-center">
         <h2 className="mb-4">Partners</h2>
         <p>Entregamos productos por volumen y detalles de nuestros partners!</p>
@@ -23,7 +23,7 @@ function Partners() {
                 alt="primero"
                 className="growshop-img"
               />
-              <h5>pinkgrow</h5>
+              <h5>VaporiumTerre</h5>
             </div>
           </CarouselItem>
           <CarouselItem>
@@ -34,7 +34,7 @@ function Partners() {
                 alt="segundo"
                 className="growshop-img"
               />
-              <h5>locogrow</h5>
+              <h5>Psycodelicium</h5>
             </div>
           </CarouselItem>
           <CarouselItem>
@@ -45,7 +45,7 @@ function Partners() {
                 alt="tercero"
                 className="growshop-img"
               />
-              <h5>jaja</h5>
+              <h5>MrCannabis</h5>
             </div>
           </CarouselItem>
           <CarouselItem>
@@ -56,7 +56,7 @@ function Partners() {
                 alt="cuarto"
                 className="growshop-img"
               />
-              <h5>grow</h5>
+              <h5>MiGrow</h5>
             </div>
           </CarouselItem>
           <CarouselItem>
@@ -67,7 +67,7 @@ function Partners() {
                 alt="quinto"
                 className="growshop-img"
               />
-              <h5>grow</h5>
+              <h5>Oveja Verde</h5>
             </div>
           </CarouselItem>
         </Carousel>

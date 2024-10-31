@@ -2,7 +2,7 @@ import "./css/servicios.css";
 
 function Servicios() {
   return (
-    <section id="servicios" className="py-5 servicios" style={{ backgroundColor: "#677D6A", color: "#fff" }}>
+    <section id="servicios" className="py-5 servicios">
       <div className="container text-center bg-dark celda">
         <h2 className="mb-2 texto">Servicios</h2>
         <p className="parrafox">

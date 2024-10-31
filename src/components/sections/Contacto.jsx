@@ -10,7 +10,7 @@ function Contacto() {
       style={{ backgroundColor: "#414345", color: "#fff" }}
     >
       <div className="container text-center">
-        <h2 className="mb-4">Contacto</h2>
+        <h2 className="mb-4 contestilo">Contacto</h2>
         <ul style={{ listStyleType: "none", padding: 0 }}>
           <li>
             <i className="fa-solid fa-envelope" style={{ color: "#74C0FC"}}></i>
