@@ -1,6 +1,5 @@
 import { Accordion } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import "./css/nosotros.css";
+ import "./css/nosotros.css";
 
 function Nosotros() {
   return (
